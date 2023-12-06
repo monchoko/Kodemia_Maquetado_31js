@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: #1c1e1f;
+}
+
+.index,
+a {
+  color: green;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #d1cdc7;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  color: #d1cdc7;
+}
+
+.title_m {
+  font-size: 18px;
+  color: #d1cdc7;
+}
+
+#C01,
+#C02,
+#C03 {
+  color: rgb(81, 187, 76);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #d1cdc7;
+}
+
+strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #d1cdc7;
+}
