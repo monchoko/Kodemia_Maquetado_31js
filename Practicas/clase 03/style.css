@@ -1,0 +1,54 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(199, 231, 240);
+}
+
+.box_one {
+  background-color: aliceblue;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+}
+
+.coment_one {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.coment_one::before,
+.coment_two::before,
+.coment_thre::before {
+  content: "💬";
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.coment_one::after {
+  content: "🥰";
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+.coment_two::after {
+  content: "🤓";
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+.coment_thre::after {
+  content: "👏";
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Lucida Sans;
+  font-weight: 700;
+}
