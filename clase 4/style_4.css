@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 25px;
+  text-align: justify;
+  color: cadetblue;
+  font-family: Lucida Sans;
+  font-weight: 800;
+}
+
+.box {
+  background-color: blueviolet;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  color: white;
+  font-weight: 800;
+  font-family: Lucida Sans;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+}
+
+.boxOne {
+  margin-top: -2px;
+  margin-left: -8px;
+  background-color: rgb(43, 134, 226);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Lucida Sans;
+}
+
+.boxTwo_f {
+  top: 10px;
+  right: 50px;
+  position: fixed;
+  background-color: rgb(226, 43, 220);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Lucida Sans;
+}
+
+.boxThre_ab {
+  top: 30px;
+  left: 200px;
+  position: absolute;
+  background-color: rgb(43, 226, 95);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Lucida Sans;
+}
+
+.boxFour_st {
+  top: 300px;
+  left: 400px;
+  position: sticky;
+  background-color: rgb(174, 226, 43);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Lucida Sans;
+}
+
+.boxFive {
+  top: 200px;
+  left: 200px;
+  position: static;
+  background-color: rgb(226, 159, 43);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Lucida Sans;
+}

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.mainContainer {
+  width: 1600px;
+  height: 1200px;
+}
+
+header {
+  z-index: 1;
+  width: 1600px;
+  height: 150px;
+  position: fixed;
+  background-color: greenyellow;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+.A-1 {
+  top: 180px;
+  width: 450px;
+  height: 650px;
+  position: relative;
+  background-color: rgb(255, 203, 47);
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+main {
+  top: 180px;
+  left: 475px;
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  background-color: rgb(255, 95, 47);
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+.A-2 {
+  top: 180px;
+  left: 1150px;
+  width: 450px;
+  height: 650px;
+  position: absolute;
+  background-color: rgb(255, 203, 47);
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+footer {
+  top: 200px;
+  width: 1600px;
+  height: 250px;
+  position: relative;
+  background-color: rgb(129, 110, 239);
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: 800;
+}
