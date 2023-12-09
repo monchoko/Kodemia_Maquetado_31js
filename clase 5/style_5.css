@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.articleNoresp {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.articleResp {
+  width: 100%;
+  margin-top: 40px;
+  height: 400px;
+  padding: 20px;
+  background-color: rgb(43, 192, 226);
+  color: white;
+}
+
+.resposiveChild_1 {
+  width: 15%;
+  height: 70%;
+  border: 3px solid rgb(224, 13, 228);
+  display: inline-block;
+}
+
+.resposiveChild_2 {
+  width: 66%;
+  height: 70%;
+  border: 3px solid rgb(224, 13, 228);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.resposiveChild_3 {
+  width: 15%;
+  height: 70%;
+  border: 3px solid rgb(224, 13, 228);
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .articleResp {
+    background-color: aquamarine;
+  }
+
+  .resposiveChild_1,
+  .resposiveChild_2,
+  .resposiveChild_3 {
+    width: 100%;
+    margin: 0;
+  }
+}
