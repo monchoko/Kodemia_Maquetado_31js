@@ -8,12 +8,20 @@ body {
   font-family: Lucida Sans;
   font-size: 17px;
   text-align: justify;
+  background-color: rgb(177, 217, 233);
+  line-height: 1.4;
+}
+
+#container_html {
+  margin: 30px auto;
+  padding: 0 auto;
+  display: inline;
   
 }
 
 .enlaces {
   background-color: #f0efef;
-  padding: 8px;
+  padding: 20px;
   border-radius: 8px;
   width: 600px;
   margin-top: 20px;
@@ -22,17 +30,31 @@ body {
   margin-right: auto;
 }
 
+
+
 .enlaces li {
   list-style: none;
   padding: 4px;
+  color: aliceblue;
 }
 
 .enlaces a {
-  color: #272727;
+  color: #2a7ec2;
 }
 
 .enlaces ul {
-  border: 1px dashed #272727;
+  display: block;
+  text-align: center;
+}
+
+h3{
+  padding: 10px;
+  background-color: rgb(154, 215, 241);
+  border-radius: 5px;
+}
+
+p{
+  padding: 10px;
 }
 
 /* selector de etiqueta p, clase . id # */
@@ -47,10 +69,10 @@ body {
 }
 
 .docItem {
-  background-color: #d3d3d3;
-  padding: 8px;
+  background-color: #d7e1e3;
+  padding: 10px;
   border-radius: 8px;
-  border: 1px solid #d1d1d1;
+
 }
 
 .docItemTitle,
@@ -60,42 +82,51 @@ body {
 }
 
 .codeExample {
-  background-color: #000;
+  background-color: #539ce0;
   height: 25px;
-  color: #72ff72;
+  color: #fff;
   padding: 8px;
   border-radius: 8px;
+  font-weight: 600;
   margin: 8px;
 }
 
 .docItem p:nth-child(2) {
-  color: #161414;
+  color:#000;
 }
 
 .docItem h3 {
   margin: 8px;
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    background-color: rgb(22, 45, 218);
+@media screen and (min-width: 300px) {
+  #container_html,
+  .enlaces, .docsContainer {
+    display: block;
+    width: 87%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(12, 131, 56);
+  #container_html,
+  .enlaces, .docsContainer {
+    display: block;
+    width: 90%;
   }
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    background-color: rgb(214, 50, 4);
+  #container_html,
+  .enlaces, .docsContainer {
+    display: block;
+    width: 93%;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  body {
-    background-color: rgb(120, 88, 79);
+  #container_html,
+  .enlaces,.docsContainer {
+    display: block;
+    width: 95%;
   }
 }
