@@ -1,0 +1,10 @@
+.micol {
+  background-color: cadetblue;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: system-ui, Arial;
+  font-weight: 800;
+  color: aliceblue;
+  padding: 20px;
+}

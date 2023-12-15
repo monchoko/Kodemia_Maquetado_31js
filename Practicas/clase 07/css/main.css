@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background: linear-gradient(rgb(74, 123, 148), rgb(35, 38, 39));
+  min-height: 100vh;
+  font-family: Lucida Sans;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.articleArt {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.articleArtframe {
+  background-color: #181a1b;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.articleArtframe img {
+  width: 85%;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
+  display: block;
+}
+
+p,
+span {
+  text-align: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 300px) {
+  .mainTitle {
+    font-size: 20px;
+  }
+  .articleArt {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 15px;
+  }
+  .articleArtframe {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .mainTitle {
+    font-size: 35px;
+  }
+  .articleArt {
+    width: 90%;
+    display: inline-block;
+    margin: 20px 15px;
+  }
+  .articleArtframe {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 45%;
+    display: inline-block;
+    margin: 15px 5px;
+  }
+  .articleArtframe {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .articleArtframe {
+    font-size: 17px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 45%;
+    display: inline-block;
+    margin: 15px 10px;
+  }
+  .articleArtframe {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 25%;
+    display: inline-block;
+    margin: 8px 5px;
+  }
+  .articleArtframe {
+    font-size: 23px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */

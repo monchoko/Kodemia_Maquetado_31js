@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  body {
+    background: linear-gradient(rgb(74, 123, 148), rgb(35, 38, 39));
+    min-height: 100vh;
+    font-family: Lucida Sans;
+    color: aliceblue;
+  }

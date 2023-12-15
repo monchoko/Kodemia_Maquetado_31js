@@ -1,0 +1,84 @@
+@media screen and (min-width: 300px) {
+  .mainTitle {
+    font-size: 20px;
+  }
+  .articleArt {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 15px;
+  }
+
+  .articleArtframe {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mainTitle {
+    font-size: 35px;
+  }
+  .articleArt {
+    width: 90%;
+    display: inline-block;
+    margin: 20px 15px;
+  }
+  .articleArtframe {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 45%;
+    display: inline-block;
+    margin: 15px 5px;
+  }
+
+  .articleArtframe {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .articleArtframe {
+    font-size: 17px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 45%;
+    display: inline-block;
+    margin: 15px 10px;
+  }
+
+  .articleArtframe {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  mainTitle {
+    font-size: 60px;
+  }
+  .articleArt {
+    width: 25%;
+    display: inline-block;
+    margin: 8px 5px;
+  }
+
+  .articleArtframe {
+    font-size: 23px;
+    padding: 10px;
+  }
+}
