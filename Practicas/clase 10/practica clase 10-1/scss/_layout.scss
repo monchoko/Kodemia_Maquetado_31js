@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a.navbar-brand {
+  color: white;
+}
+
+a.nav-link {
+  color: white;
+  font-size: 1rem;
+}
+
+a.nav-link:hover {
+  color: grey;
+}
